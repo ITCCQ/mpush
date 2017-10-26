@@ -25,10 +25,12 @@ import com.mpush.api.spi.common.MQMessageReceiver;
 
 /**
  * Created by ohun on 2016/12/28.
+ * 模拟MQ pub/sub
  *
  * @author ohun@live.cn (夜色)
  */
-@Spi(order = 2)
+//@Spi(order = 2)
+@Spi(order = -1)
 public final class SimpleMQClientFactory implements com.mpush.api.spi.common.MQClientFactory {
     private MQClient mqClient = new MQClient() {
         @Override

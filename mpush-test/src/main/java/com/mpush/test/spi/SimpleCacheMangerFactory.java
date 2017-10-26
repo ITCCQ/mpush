@@ -25,6 +25,7 @@ import com.mpush.api.spi.common.CacheManagerFactory;
 
 /**
  * Created by ohun on 2016/12/28.
+ * 模拟Redis
  *
  * @author ohun@live.cn (夜色)
  */
